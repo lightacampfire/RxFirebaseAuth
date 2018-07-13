@@ -13,6 +13,7 @@
 		16E80F851FB20DB600E8DDA7 /* Auth+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E80F821FB20DB600E8DDA7 /* Auth+Rx.swift */; };
 		16E80F861FB20DB600E8DDA7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E80F831FB20DB600E8DDA7 /* Result.swift */; };
 		16E80F871FB20DB600E8DDA7 /* User+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E80F841FB20DB600E8DDA7 /* User+Rx.swift */; };
+		9376063120F8C7470095E612 /* PhoneAuthProvider+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9376063020F8C7470095E612 /* PhoneAuthProvider+Rx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		16E80F841FB20DB600E8DDA7 /* User+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+Rx.swift"; sourceTree = "<group>"; };
 		2BB8848F167D809BA2477332 /* Pods-RxFirebaseAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxFirebaseAuth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxFirebaseAuth/Pods-RxFirebaseAuth.debug.xcconfig"; sourceTree = "<group>"; };
 		3E799441A7F32D5FE89876A5 /* Pods-RxFirebaseAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxFirebaseAuth.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxFirebaseAuth/Pods-RxFirebaseAuth.release.xcconfig"; sourceTree = "<group>"; };
+		9376063020F8C7470095E612 /* PhoneAuthProvider+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhoneAuthProvider+Rx.swift"; sourceTree = "<group>"; };
 		E9F6F100A13ED49DEAE7200D /* Pods_RxFirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxFirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				16E80F821FB20DB600E8DDA7 /* Auth+Rx.swift */,
+				9376063020F8C7470095E612 /* PhoneAuthProvider+Rx.swift */,
 				16E80F831FB20DB600E8DDA7 /* Result.swift */,
 				16E80F841FB20DB600E8DDA7 /* User+Rx.swift */,
 				16212C6C2091E644004F0839 /* Helper.swift */,
@@ -201,6 +204,7 @@
 				16E80F861FB20DB600E8DDA7 /* Result.swift in Sources */,
 				16E80F871FB20DB600E8DDA7 /* User+Rx.swift in Sources */,
 				16E80F851FB20DB600E8DDA7 /* Auth+Rx.swift in Sources */,
+				9376063120F8C7470095E612 /* PhoneAuthProvider+Rx.swift in Sources */,
 				16212C6D2091E644004F0839 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
